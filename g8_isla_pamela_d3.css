@@ -1,0 +1,60 @@
+body {
+    font-family: georgia, time, serif;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h1 {
+    line-height: 1.3em;
+    font-size: 2 rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column
+}
+
+p {
+    margin-bottom: 1.6em;
+    font-family: georgia, time, serif;
+    font-size: 1px;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.navigation {
+    list-style: none;
+    justify-content: flex-start;
+    background-color: #06a0fa;
+    border: #0703ec 2px solid;
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: #D7C8B6;
+}
+
+footer {
+    position: fixed;
+    height: 14px;
+    background: #1202f5;
+    padding: 4px 0px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 10px;
+    margin-top: 6rem;
+}
